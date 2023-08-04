@@ -49,7 +49,7 @@
 			<key>CFBundleIdentifier</key>
 			<string>as.acidanthera.voodoo.driver.PS2Mouse</string>
 			<key>HIDPointerAccelerationType</key>
-			<string>HIDTrackpadAcceleration</string>
+			<string>HIDTrackpadAccelerationKey</string>
 			<key>HIDScrollAccelerationType</key>
 			<string>HIDTrackpadScrollAcceleration</string>
 			<key>IOClass</key>
@@ -94,9 +94,9 @@
 					<key>FakeMiddleButton</key>
 					<false/>
 					<key>ForceDefaultResolution</key>
-					<false/>
-					<key>ForceSetResolution</key>
 					<true/>
+					<key>ForceSetResolution</key>
+					<false/>
 					<key>MiddleClickTime</key>
 					<integer>100000000</integer>
 					<key>MouseCount</key>
