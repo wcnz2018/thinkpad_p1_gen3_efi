@@ -167,9 +167,9 @@
 					<key>TrackpointDividerY</key>
 					<integer>120</integer>
 					<key>TrackpointMultiplierX</key>
-					<integer>240</integer>
+					<integer>220</integer>
 					<key>TrackpointMultiplierY</key>
-					<integer>240</integer>
+					<integer>220</integer>
 					<key>USBMouseStopsTrackpad</key>
 					<integer>0</integer>
 					<key>UseHighRate</key>
