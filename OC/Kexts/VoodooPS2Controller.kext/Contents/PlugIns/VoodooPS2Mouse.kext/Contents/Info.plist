@@ -94,7 +94,7 @@
 					<key>FakeMiddleButton</key>
 					<false/>
 					<key>ForceDefaultResolution</key>
-					<false/>
+					<true/>
 					<key>ForceSetResolution</key>
 					<true/>
 					<key>MiddleClickTime</key>
