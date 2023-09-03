@@ -56,11 +56,11 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>dsdt.mod.aml</string>
+				<string>SSDT-ECRW.aml</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>Path</key>
-				<string>dsdt.mod.aml</string>
+				<string>SSDT-ECRW.aml</string>
 			</dict>
 		</array>
 		<key>Delete</key>
