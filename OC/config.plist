@@ -62,6 +62,14 @@
 				<key>Path</key>
 				<string>SSDT-ECRW.aml</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-THINK.aml</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-THINK.aml</string>
+			</dict>
 		</array>
 		<key>Delete</key>
 		<array>
