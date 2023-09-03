@@ -54,6 +54,14 @@
 				<key>Path</key>
 				<string>SSDT-NoHybGfx.aml</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>dsdt.mod.aml</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>dsdt.mod.aml</string>
+			</dict>
 		</array>
 		<key>Delete</key>
 		<array>
@@ -725,24 +733,6 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>VoodooRMI.kext</string>
-				<key>Comment</key>
-				<string>VoodooRMI.kext</string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/VoodooRMI</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
 				<string>VoodooSMBus.kext</string>
 				<key>Comment</key>
 				<string>VoodooSMBus.kext</string>
@@ -761,11 +751,29 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
+				<string>VoodooRMI.kext</string>
+				<key>Comment</key>
+				<string>VoodooRMI.kext</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/VoodooRMI</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
 				<string>VoodooRMI.kext/Contents/PlugIns/RMII2C.kext</string>
 				<key>Comment</key>
 				<string>RMII2C.kext</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/RMII2C</string>
 				<key>MaxKernel</key>
@@ -804,6 +812,42 @@
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/VoodooInput</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>RealtekCardReader.kext</string>
+				<key>Comment</key>
+				<string>RealtekCardReader.kext</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/RealtekCardReader</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>RealtekCardReaderFriend.kext</string>
+				<key>Comment</key>
+				<string>RealtekCardReaderFriend.kext</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/RealtekCardReaderFriend</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -1337,7 +1381,7 @@
 		<key>Security</key>
 		<dict>
 			<key>AllowSetDefault</key>
-			<false/>
+			<true/>
 			<key>ApECID</key>
 			<integer>0</integer>
 			<key>AuthRestart</key>
@@ -1423,7 +1467,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>keepsyms=1 debug=0x100 alcid=11 -wegnoegpu -igfxblr -igfxbls</string>
+				<string>keepsyms=1 swd_panic=1 debug=0x100 alcid=11 -wegnoegpu -igfxblr -igfxbls igfxonln=1</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
