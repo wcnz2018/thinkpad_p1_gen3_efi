@@ -98,7 +98,7 @@
 				<key>Comment</key>
 				<string>SSDT_NVMe-Pcc.aml</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Path</key>
 				<string>SSDT_NVMe-Pcc.aml</string>
 			</dict>
@@ -352,6 +352,13 @@
 				<key>AAPL,backlight-control</key>
 				<data>AAAAAA==</data>
 			</dict>
+			<key>PciRoot(0x0)/Pci(0x1D,0x0)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>class-code</key>
+				<data>Aw==</data>
+				<key>built-in</key>
+				<data>AQ==</data>
+			</dict>
 		</dict>
 		<key>Delete</key>
 		<dict/>
@@ -602,7 +609,7 @@
 				<key>Comment</key>
 				<string>CPUFriend.kext</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/CPUFriend</string>
 				<key>MaxKernel</key>
@@ -620,7 +627,7 @@
 				<key>Comment</key>
 				<string>CPUFriendDataProvider.kext</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string></string>
 				<key>MaxKernel</key>
@@ -1610,7 +1617,7 @@
 			<key>PasswordSalt</key>
 			<data></data>
 			<key>ScanPolicy</key>
-			<integer>17760515</integer>
+			<integer>0</integer>
 			<key>SecureBootModel</key>
 			<string>Disabled</string>
 			<key>Vault</key>
